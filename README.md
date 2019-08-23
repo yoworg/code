@@ -1,2 +1,2 @@
-# vscode
-Repo for Vscode Code
+# code
+Repo for my Code
