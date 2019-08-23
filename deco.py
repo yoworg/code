@@ -1,7 +1,7 @@
 
 def decorator(function):
     def decorated(value):
-        print("A Decorated Function")
+        print("Decorated Function")
         function(value)
     
     return decorated
