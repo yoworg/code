@@ -5,12 +5,10 @@ def decorator(function):
     
     return decorated
 
+
+@decorator
 def test(value):
     print(value)
 
 
-
-decorated = decorator(test)
-
-
-decorated(6)
+test(6)
