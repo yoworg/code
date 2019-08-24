@@ -1,4 +1,3 @@
-
 def decorator(function):
     def decorated(value):
         print("That Decorated Function")
