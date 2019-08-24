@@ -1,6 +1,6 @@
 import inspect
 
-list1 = [1,2,3,4,5,6]
+list1 = [1,2,3,4,5,6,7]
 
 
 it = list1.__iter__()
