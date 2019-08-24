@@ -1,6 +1,6 @@
 import re
 
-ip = "129.34.13.4kdsfskdj"
+ip = "129.34.13.4kdsfskdjf"
 hostname = "urkjdfk3434ff"
 
 #pattern = re.compile("\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}")
