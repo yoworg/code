@@ -4,7 +4,7 @@ from flask_restplus import Api, Resource
 app = Flask(__name__)
 api = Api(app)
 
-@api.route('/language','lan')
+@api.route('/language','la')
 class Language(Resource):
     def get(self):
         return {"Color": "Yellow", "Area":"North","K":"6"}, 200
