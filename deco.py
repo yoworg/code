@@ -1,17 +1,14 @@
-
 def decorator(function):
     def decorated(value):
-        print("That Decorated Function")
+        print("Some Decorated Function")
         function(value)
     
     return decorated
 
+
+@decorator
 def test(value):
     print(value)
 
 
-
-decorated = decorator(test)
-
-
-decorated(6)
+test(6)
