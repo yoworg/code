@@ -7,7 +7,7 @@ api = Api(app)
 @api.route('/language')
 class Language(Resource):
     def get(self):
-        return {"Color": "Yellow", "Area":"North","K":"6"}, 200
+        return {"Color": "Blue", "Area":"North","K":"6"}, 200
 
     def post(self):
         dict1 = request.json
