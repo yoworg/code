@@ -7,3 +7,5 @@ def gen():
 
 
 g = gen()
+
+next(g)
