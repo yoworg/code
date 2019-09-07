@@ -8,4 +8,5 @@ def gen():
 
 g = gen()
 
-next(g)
+print(g.__next__())
+print(next(g))
